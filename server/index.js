@@ -1,11 +1,3 @@
-// Prompt
-// Build a REST API for a todo list app.
-// To create notes, an account must be created. Clients should POST /accounts with a username to create an account. The response should include an account ID.
-// Clients can then use endpoints to create, read, update, and delete notes. Notes should be stored per account. Note content can be any plain text.
-// You should not make a frontend. Use a HTTP client of your choice to make calls.
-// You should not use a database. You should store everything in memory.
-// You should not worry about authenication.
-
 const express = require('express');
 const cors = require('cors');
 const app = express();
