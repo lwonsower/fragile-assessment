@@ -6,15 +6,18 @@ A simple rest api for a todo list
 git@github.com:lwonsower/fragile-assessment.git
 ```
 
+
 2. Install dependencies
 ```
 npm install
 ```
 
+
 3. Start server
 ```
 npm start
 ```
+
 
 4. Create an account
 - `POST localhost:8080/accounts` using a service such as Postman
@@ -28,6 +31,7 @@ example request body
 ```
 Notice your accountId and use it for next steps
 
+
 5. Create some notes
 - `POST localhost:8080/notes/:accountId`
 
@@ -39,8 +43,10 @@ example request body
 ```
 Keep track of noteIds to use for next steps
 
+
 5. View your created notes
 - `GET localhost:8080/notes/:accountId`
+
 
 6. Update a note
 - `PATCH localhost:8080/notes/:noteId`
@@ -52,5 +58,6 @@ example request body
 }
 ```
 
-6. Delete a note
+
+7. Delete a note
 - `DELETE localhost:8080/notes/:noteId`
